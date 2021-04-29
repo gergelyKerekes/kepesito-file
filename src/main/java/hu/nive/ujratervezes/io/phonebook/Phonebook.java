@@ -19,6 +19,7 @@ public class Phonebook {
             }
 
         } catch (IOException e) {
+
             System.out.println("Cannot write file!");
         } catch (NullPointerException ne) {
             throw new IllegalArgumentException();
